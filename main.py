@@ -70,5 +70,6 @@ try:
 
 except Exception as err:
     print(f"Erro ao efetuar a criação dos inserts{err}")
+    traceback.print_exc()
     
 input("Finalizar...")
