@@ -61,12 +61,14 @@ try:
         ]
 
         querys += f"INSERT INTO {table} ({', '.join(columnNames)}) VALUES ({', '.join(formattedValues)})\n"
+        
+        print(F"Insert criado para a tabela {table} com sucesso.\n FKs columns: {fk} \n FKs chaves: {fkValue}")
 
     with open('output.sql', 'w') as file:
         file.write(querys)
 
-    print("Inserts criados com sucesso.")
 
 except Exception as err:
     print(f"Erro ao efetuar a criação dos inserts{err}")
-    traceback.print_exc()
+    
+input("Finalizar...")
