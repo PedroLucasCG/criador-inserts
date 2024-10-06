@@ -1,0 +1,3 @@
+Pessoa>Endereco=fk1
+Telefone>Pessoa=fk2
+Avaliacao>Acordo,Grau=fk3,fk4
