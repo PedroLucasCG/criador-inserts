@@ -13,4 +13,4 @@
 Obs.: O nome da tabela e chaves tem que ser os mesmo que estão no banco de dados e os nomes dos valores de chaves têm que ser os mesmos definidos no arquivo "fkidValues.txt"
 
 3 - Execute main.py e selecione para gerar as chaves, escolhendo int ou uuid para ser o tipo de chave que deseja, caso não já tenha definido os valores (esse processo apaga reescreve o arquivo "fkidValues") e diga a quantidade de chaves;
-essas serão identificada genericamente no formato "fk1", "fk2"... Elas terão que apontadas manualmente no arquivo "fknames.txt" como valores.
+essas serão identificada genericamente no formato "fk1", "fk2"... Elas terão que ser apontadas manualmente no arquivo "fknames.txt" como valores.
