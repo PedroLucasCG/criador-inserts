@@ -4,5 +4,6 @@
 
 ### Modo de uso
 
-1 - Se você possuir chaves estrageiras coloque as no arquivo "fkidValues.txt" no formato: nome_da_chave:valor_chave_primaria. Obs.: não precisa ser o mesmo que está no banco de dados. \n
+1 - Se você possuir chaves estrageiras coloque as no arquivo "fkidValues.txt" no formato: nome_da_chave:valor_chave_primaria. Obs.: não precisa ser o mesmo que está no banco de dados.
+
 2 - Caso você não tenha chaves primárias apenas execute main.py e selecione para gerar as chaves, escolhendo int ou uuid para ser o tipo de chave que deseja.
